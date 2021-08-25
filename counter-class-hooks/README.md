@@ -1,3 +1,10 @@
+# Counter App Comparison
+
+This is a learning activity to compare code syntax for a Class Function Component vs a Function Component with Hooks. In this case a simple counter was created. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -2,8 +2,9 @@
 
 This is a learning activity to compare code syntax for a Class Function Component vs a Function Component with Hooks. In this case a simple counter was created. 
 
+The ClassCounter Component uses a Class Function constructed with the constructor and super functions. The keyword 'this' is used to set variable count to 0. Upon pressing the onClick element button it will render a function called incrementCount which will take the current state of var count and increment +1. A new current state is rendered upon each click of the button. 
 
-
+The HookCounter Component uses a Function that will take an array of variables 'count' and 'setCount' which will be deconstructed using the useState (Hook) function. This Hook will give both variables the ability to initialize a state of 0 and provide the ability to change that state. Upon pressing the onclick element button it will return the setCount to update the state to count + 1. A new current state is rendered upon each click of the button.     
 
 # Getting Started with Create React App
 
